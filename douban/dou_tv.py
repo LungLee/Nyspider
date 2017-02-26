@@ -15,7 +15,7 @@ class Douban():
             'Accept': 'text/html,application/xhtml+xml,application/xml;q=0.9,*/*;q=0.8',
             'Accept-Language': 'en-US,en;q=0.5',
             'Accept-Encoding': 'gzip, deflate',
-            'DNT': 1,
+            'DNT': '1',
             'Connection': 'keep-alive'}
         self.count=0
         self.session.get('http://www.douban.com',headers=self.headers)
